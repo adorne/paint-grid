@@ -8,8 +8,21 @@
     <script src="script.js" charset="utf-8"></script>
   </head>
   <body>
+    <form class="drawing-tools">
+      <label id="text" for="">Количество квадратов:</label>
+      <br>
+      <label for=""><input type="radio" name="nDivs" value="4">4</label>
+      <label for=""><input type="radio" name="nDivs" value="16">16</label>
+      <label for=""><input type="radio" name="nDivs" value="64">64</label>
+      <br>
+      <label for=""><input type="radio" name="nDivs" value="100">100</label>
+      <label for=""><input type="radio" name="nDivs" value="144">144</label>
+      <label for=""><input type="radio" name="nDivs" value="256">256</label>
+      <br>
+      <button type="button" id="new-grid" name="new-grid">Новая сетка</button>
+      <button type="button" id="reset-grid" name="reset-grid">Сбросить сетку</button>
+    </form>
 
-    <button type="button" name="button" onclick="colorReset()">Reset grid</button>
     <div class="container">
 
     </div>
